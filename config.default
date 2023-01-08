@@ -1,10 +1,16 @@
-# config file for toolchain scripts
-# modify according your needs
-# save to 'config'
 
-#LFS="$CWD/lfs-rootfs"
-#PKGDIR="$CWD/pkg"
-#SRCDIR="$CWD/src"
-#WORKDIR="$CWD/work"
-#MAKEFLAGS="-j$(nproc)"
-#CFLAGS="-O2 -march=x86-64 -pipe"
+MAKEFLAGS="-j$(nproc)"
+LFS="/mnt/lfs"
+LFS_TGT=$(uname -m)-lfs-linux-gnu
+
+TCDIR=$CWD/toolchain
+SRCDIR=$CWD/sources
+PATCHDIR=$CWD/patches
+FILEDIR=$CWD/files
+WORKDIR=/tmp
+
+LABEL=LFSLIVECD
+OUTPUT=lfs-livecd-$(date +"%Y%m%d")
+WDIR=/tmp/lfsiso
+
+#MULTILIB=yes
