@@ -3,15 +3,15 @@
 # Maintainer:  Emmett1, emmett1 dot 2miligrams at gmail dot com
 # Depends on:  
 
-name=zlib-ng
-version=2.0.5
+name=zlib
+version=1.2.13
 release=1
-source=(https://lx4u.ru/downloads/packages/$name-$version.tar.gz)
+source=(https://zlib.net/$name-$version.tar.xz)
 
 build() {
         cd $name-$version
 
-        ./configure --prefix=/usr --zlib-compat --native
+        ./configure --prefix=/usr
         make
         make DESTDIR=$PKG install
 
