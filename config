@@ -13,4 +13,3 @@ LABEL=LFSLIVECD
 OUTPUT=lfs-livecd-$(date +"%Y%m%d")
 WDIR=/tmp/lfsiso
 
-#MULTILIB=yes
