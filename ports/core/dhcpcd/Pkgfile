@@ -7,7 +7,7 @@ name=dhcpcd
 version=9.4.1
 bootscriptsversion=20210110
 release=1
-source=(https://roy.marples.name/downloads/dhcpcd/dhcpcd-$version.tar.xz
+source=(https://sources.buildroot.net/dhcpcd/dhcpcd-$version.tar.xz
 	http://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-$bootscriptsversion.tar.xz)
 
 build() {
