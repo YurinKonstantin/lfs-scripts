@@ -3,6 +3,8 @@
 This repo contain scripts to automate multilib LFS build + livecd. This LFS build is using [CRUX](https://crux.nu)'s pkgutils for managing packages and initramfs generator from [Venom Linux](https://venomlinux.org) for livecd initramfs.
 sudo apt-get install -y pkg-config установить или ошибка https://github.com/emmett1/lfs-scripts/issues/7
 sudo apt install curl
+sudo apt-get install libarchive-dev
+
 ### Requirements
 
 * `sudo` / `doas`
