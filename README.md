@@ -6,6 +6,7 @@ sudo apt install curl
 sudo apt-get install libarchive-dev
 sudo apt install xorriso-tcltk
 sudo apt install libvirt-daemon
+https://github.com/ahron-maslin/BLFS-automation
 
 ln -s /mnt/lfs/usr/lib/grub/x86_64-efi /usr/lib/grub/x86_64-efi
 ln -s /mnt/lfs/usr/share/syslinux /usr/share/syslinux
