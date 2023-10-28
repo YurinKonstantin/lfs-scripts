@@ -4,6 +4,8 @@ This repo contain scripts to automate multilib LFS build + livecd. This LFS buil
 sudo apt-get install -y pkg-config установить или ошибка https://github.com/emmett1/lfs-scripts/issues/7
 sudo apt install curl
 sudo apt-get install libarchive-dev
+ln -s /mnt/lfs/usr/lib/grub/x86_64-efi /usr/lib/grub/x86_64-efi
+ln -s /mnt/lfs/usr/share/syslinux /usr/share/syslinux
 
 ### Requirements
 
