@@ -11,6 +11,9 @@ https://github.com/ahron-maslin/BLFS-automation
 ln -s /mnt/lfs/usr/lib/grub/x86_64-efi /usr/lib/grub/x86_64-efi
 ln -s /mnt/lfs/usr/share/syslinux /usr/share/syslinux
 
+https://github.com/andersensam/lfs-scripts/tree/master
+https://github.com/wolfesteinabhi/lfs-scripts/tree/master/ports/core
+
 ### Requirements
 
 * `sudo` / `doas`
