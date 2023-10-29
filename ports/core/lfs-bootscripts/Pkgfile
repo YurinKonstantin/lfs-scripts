@@ -6,7 +6,7 @@
 name=lfs-bootscripts
 version=20220723
 release=1
-source=(http://www.linuxfromscratch.org/lfs/downloads/stable/lfs-bootscripts-$version.tar.xz
+source=(https://mirror.koddos.net/lfs/lfs-packages/11.2/lfs-bootscripts-$version.tar.xz
 	lfs-bootscripts_add-support-uefi.patch
 	clock
 	console
