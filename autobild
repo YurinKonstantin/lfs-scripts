@@ -1,0 +1,9 @@
+sudo git clone https://github.com/YurinKonstantin/lfs-scripts.git ALFS
+sudo chown -vR yurin ALFS
+
+sudo mkdir /mnt/lfs/tools
+sudo chown -Rv yurin:yurin /mnt/lfs
+
+sudo ln -svf /mnt/lfs/tools /tools
+
+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
